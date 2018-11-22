@@ -22,9 +22,13 @@ While reading this article, it is helpful to use the standard Windows Registry e
 
 ## Finding the Rhino Registry Key
 
-Rhino plugins are registered at the following location in the Windows Registry:
+Rhino plugins are registered at the following location in the Windows Registry for system wide installations:
 
 `HKEY_LOCAL_MACHINE\Software\McNeel\Rhinoceros\6.0\Plug-ins`
+
+And for local user installations at (use this if your installer doesn't require admin privileges):
+
+`HKEY_CURRENT_USER\Software\McNeel\Rhinoceros\6.0\Plug-ins`
 
 ## Registering Your Plugin
 
